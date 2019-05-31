@@ -8,23 +8,24 @@ El cliente está cansado de llevar todo el registro y control de sus operaciones
 
 # Requerimientos funcionales:
 
-* El cliente no tiene preferencia en las tecnologías que su equipo use para solventar sus necesidades, siempre y cuando el sistema cumpla con los siguientes requerimientos:
+El cliente no tiene preferencia en las tecnologías que su equipo use para solventar sus necesidades, siempre y cuando el sistema cumpla con los siguientes requerimientos:
+
 * El cliente necesita por seguridad que todos sus empleados estén registrados dentro de la solución tecnológica que se proponga.
 * El cliente necesita crear nuevas cuentas con los empleados que contrate para sus operaciones.
 *  El cliente necesita por seguridad suspender las cuentas de los empleados que dejen de laborar en TSK.
 * La solución tecnológica que se plantee debe verificar las credenciales de cada usuario antes de realizar cambios en el inventario.
 * El cliente necesita registrar la compra de productos a los proveedores, relacionando por lo menos el código del producto y el número de orden.
 * Opcionalmente, es posible que los proveedores también tengan acceso a la plataforma para controlar los pedidos que se les soliciten, esto implica:
-* Una forma de acceder a la plataforma
-* Obtener las órdenes de producto entregadas al supermercado
-* Obtener las órdenes de producto pendientes al supermercado
+    * Una forma de acceder a la plataforma
+    * Obtener las órdenes de producto entregadas al supermercado
+    * Obtener las órdenes de producto pendientes al supermercado
 * El cliente requiere saber qué productos tiene en su almacén, para así poder saber cuando necesita realizar un nuevo pedido a sus proveedores.
 * El cliente necesita saber qué órdenes de pedido a proveedores tiene pendientes.
 * Opcionalmente, el cliente requiere que en caso de ser necesario modificar una venta, un administrador autorice este cambio.
 * El cliente necesita registrar las ventas de los productos, relacionando por lo menos el código del producto y el código de vendedor.
 * El cliente requiere generar al final del día un reporte de cierre que le permita saber la cantidad de productos vendidos, su valor, el valor de venta bruta y su utilidad neta.
 * El cliente necesita conocer las ventas por empleado para el plan de comisión mensual, la cual se calcula de la siguiente manera:
-* Se le pagará el 1% del total de ventas mensuales  registradas por el empleado. 
+    * Se le pagará el 1% del total de ventas mensuales  registradas por el empleado. 
 * El cliente necesitar manejar la información de los productos vencidos, para así realizar la respectiva solicitud de cambio a sus proveedores.
 * Se necesita un informe mensual en el que se muestre:
   * Cantidad de ingresos totales durante el mes en total y por vendedor
